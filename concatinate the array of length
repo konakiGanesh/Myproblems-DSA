@@ -1,0 +1,14 @@
+public class Test {
+  public static void main(String[] args){
+    int[] nums={1,4,3};
+        int n = nums.length;
+        int[] ans = new int[2 * n // created an array to store the double of the array size
+        for (int i = 0; i < n; i++) {
+          // this line assigns the first ith index to the first half of the array
+            ans[i] = nums[i];
+            //this line below assign the i th index value to the length concatinate
+            ans[i + n] = nums[i];
+        }
+        System.out.print(ans);
+      }
+    }
