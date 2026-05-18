@@ -3,6 +3,7 @@ public class LinearSearch {
         int arr[] = {22,4,23,14,52,45,1,0,6};
         int n = arr.length;
         int target = 45;
+        boolean found = false;
         for(int i=0; i<n ; i++){
             if(arr[i]==target){
                 found=true;
@@ -10,6 +11,8 @@ public class LinearSearch {
                 break;
             }
         }
-        System.out.println("Element not found in the array"); // this will print if the target element is not found in the array
+        if(!found){
+            System.out.println("Element not found in the array"); // this will print if the target element is not found in the array
+        }
     }
 }
