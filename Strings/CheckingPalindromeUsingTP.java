@@ -1,3 +1,4 @@
+package Strings;
 public class CheckingPalindromeUsingTP {
     public static void main(String[] args){
         String str = "GanaG";
