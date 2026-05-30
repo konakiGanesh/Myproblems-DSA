@@ -3,7 +3,7 @@ public class RemoveDuplicatesFromSortedArray {
         int arr[] = {1,1,2,3,4,4,5};
         int n= arr.length;
         int l=0;
-        int r =1;
+        int r=1;
         while(l<n && r<n){
             if(arr[l] != arr[r]){
                 l++;
