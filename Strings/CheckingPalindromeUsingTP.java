@@ -25,7 +25,6 @@ public class CheckingPalindromeUsingTP {
             while (left < right && !Character.isLetterOrDigit(str.charAt(right))) {
                 right--;
             }
-
             //case sensitive
             char l = Character.toLowerCase(str.charAt(left));
             char r = Character.toLowerCase(str.charAt(right));
